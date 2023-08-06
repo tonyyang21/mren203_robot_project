@@ -28,10 +28,14 @@ Using documentation from the RPLiDAR and packages from ROS, Hector SLAM (Simulta
 
 <p align="center">
     A map of the room CliMate was monitoring generated from a SLAM algorithm using a LiDAR.
+</p>
+<p align="center">
     <img width="500" src="https://github.com/tonyyang21/mren203_robot_project/assets/116667620/55dc6e89-222f-423d-80b7-35c34fe4a4f5">
 </p>
 
 <p align="center">
     A heatmap generated from the CO2 sensors of CliMate.
+</p>
+<p align="center">
     <img width="500" src="https://github.com/tonyyang21/mren203_robot_project/assets/116667620/26713d58-4c96-45c8-b153-96b9b783e2b0">
 </p>
