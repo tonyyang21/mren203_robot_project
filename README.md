@@ -1,6 +1,7 @@
 # mren203_robot_project
 Repository showcasing Tony, Leo, and Nathan's MREN 203 2nd year robotics project at Queen's University called CliMate.
 
+### Problem Definition
 The effects of poor air quality can be detrimental to an individual’s health over time or even with acute exposure. Indoor air quality (IAQ) is especially important to monitor as people spend a significant amount of time indoors where air tends to be more stagnant, allowing for toxins to accumulate even with a fully functioning HVAC system. Fueled by airborne virus transmission during the Covid-19 pandemic, IAQ has become a worriment for virtually all individuals who work, live, and breath in indoor environments. CliMate, a semi-autonomous indoor air quality surveillance mobile robot, is designed to solve the issue of contaminant exposure by periodically patrolling a building and recording contaminant levels and their location, then configuring them to inform building occupants. 
 
 ## The Setup
@@ -25,10 +26,12 @@ Using the LiDAR and the CO2 sensors, the quality of air was measured at various 
 ## Generated Maps
 Using documentation from the RPLiDAR and packages from ROS, Hector SLAM (Simultaneous Localization and Mapping) was used to map out the room CliMate was monitoring.
 
-### Map generated from SLAM algorithm using LiDAR
 <p align="center">
-    <img width="200" src="https://github.com/tonyyang21/mren203_robot_project/assets/116667620/55dc6e89-222f-423d-80b7-35c34fe4a4f5">
+    A map of the room CliMate was monitoring generated from a SLAM algorithm using a LiDAR.
+    <img width="500" src="https://github.com/tonyyang21/mren203_robot_project/assets/116667620/55dc6e89-222f-423d-80b7-35c34fe4a4f5">
 </p>
 
-### Heatmap generated from CO2 sensors and SLAM
-![Heatmap](https://github.com/tonyyang21/mren203_robot_project/assets/116667620/26713d58-4c96-45c8-b153-96b9b783e2b0)
+<p align="center">
+    A heatmap generated from the CO2 sensors of CliMate.
+    <img width="500" src="https://github.com/tonyyang21/mren203_robot_project/assets/116667620/26713d58-4c96-45c8-b153-96b9b783e2b0">
+</p>
