@@ -1,0 +1,26 @@
+import inputs
+import serial
+
+#Set up Gamepad
+print(inputs.devices.gamepads)
+pads = inputs.devices.gamepads
+if len(pads) == 0:
+    raise Exception("Couldn't find any Gamepads!")
+
+#Set up serial
+Arduino_Serial = serial.Serial('acm0', 9600)  # Create Serial port object called arduinoSerialData
+print(Arduino_Serial.readline())  # read the serial data and print it as line
+print("Enter 1 to ON LED and 0 to OFF LED")
+
+#check for inputs
+while True:
+    events = inputs.get_gamepad()
+    for event in events:
+        print(event.ev_type, event.code, event.state)
+        if event.state == 0:
+            Arduino_Serial.write('1'.encode())  # send 1 to arduino
+            print("LED ON")
+        else:
+            Arduino_Serial.write('0'.encode())  # send 1 to arduino
+            print("LED OFF")
+

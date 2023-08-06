@@ -1,0 +1,13 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - MinGW Makefiles" C:\Users\lbran\Desktop\CliMate_Robot
+-- Configuring done
+CMake Error at CMakeLists.txt:9 (add_executable):
+  Cannot find source file:
+
+    CliMate_Robot/CliMate.ino
+
+
+CMake Error at CMakeLists.txt:9 (add_executable):
+  No SOURCES given to target: CliMate_Robot
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
