@@ -30,7 +30,7 @@ Using documentation from the RPLiDAR and packages from ROS, Hector SLAM (Simulta
     <img width="500" src="https://github.com/tonyyang21/mren203_robot_project/assets/116667620/55dc6e89-222f-423d-80b7-35c34fe4a4f5">
 </p>
 <p align="center">
-    _A map of the room CliMate was monitoring generated from a SLAM algorithm using a LiDAR._
+    *A map of the room CliMate was monitoring generated from a SLAM algorithm using a LiDAR*
 </p>
 
 
