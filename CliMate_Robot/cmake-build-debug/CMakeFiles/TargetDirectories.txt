@@ -1,0 +1,3 @@
+C:/Users/lbran/Desktop/CliMate_Robot/cmake-build-debug/CMakeFiles/CliMate_Robot.dir
+C:/Users/lbran/Desktop/CliMate_Robot/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/lbran/Desktop/CliMate_Robot/cmake-build-debug/CMakeFiles/rebuild_cache.dir
