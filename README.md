@@ -21,7 +21,9 @@ The setup of the CliMate robot is shown below. In green are the processing units
 
 ### Map generated from SLAM algorithm using LiDAR
 <p align="center">
+  
 ![image](https://github.com/tonyyang21/mren203_robot_project/assets/116667620/55dc6e89-222f-423d-80b7-35c34fe4a4f5)
+
 </p>
 
 ### Heatmap generated from CO2 sensors and SLAM
