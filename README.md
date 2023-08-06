@@ -1,12 +1,28 @@
 # mren203_robot_project
-Repository showcasing our MREN 203 2nd year robotics project at Queen's University.
-## Arduino microcontroller flow diagram
+Repository showcasing Tony, Leo, and Nathan's MREN 203 2nd year robotics project at Queen's University called CliMate.
+The effects of poor air quality can be detrimental to an individual’s health over time or even with acute exposure. Indoor air quality (IAQ) is especially important to monitor as people spend a significant amount of time indoors where air tends to be more stagnant, allowing for toxins to accumulate even with a fully functioning HVAC system. Fueled by airborne virus transmission during the Covid-19 pandemic, IAQ has become a worriment for virtually all individuals who work, live, and breath in indoor environments. CliMate, a semi-autonomous indoor air quality surveillance mobile robot, is designed to solve the issue of contaminant exposure by periodically patrolling a building and recording contaminant levels and their location, then configuring them to inform building occupants. 
+
+## The Setup
+The setup of the CliMate robot is shown below. In green are the processing units. In red are the human interfacing components, and the blue blocks highlight the air quality sensors. The yellow shape outlines the LiDAR sensor and its accessories and in orange are the range sensors. Additional components such as the battery, motor, and motor controllers are beneath.
+![image](https://github.com/tonyyang21/mren203_robot_project/assets/116667620/797dfea0-789f-46b3-b898-8beff35aded3)
+
+## Algorithms
+
+### Arduino microcontroller flow diagram
 ![image](https://github.com/tonyyang21/mren203_robot_project/assets/116667620/f1d00362-f9e5-44a5-8592-fc76ea1a3157)
-## Raspberry Pi teleoperation flow diagram
+
+### Raspberry Pi teleoperation flow diagram
 ![image](https://github.com/tonyyang21/mren203_robot_project/assets/116667620/8bafb8b0-b402-4ea1-beae-780026c65ae0)
-## Raspberry Pi SLAM and Heatmap flow diagram
+
+### Raspberry Pi SLAM and Heatmap flow diagram
 ![image](https://github.com/tonyyang21/mren203_robot_project/assets/116667620/00d2cf3d-7b74-4766-be51-946e1c3666a2)
+
+## Generated Maps
+
 ### Map generated from SLAM algorithm using LiDAR
+<p align="center">
 ![image](https://github.com/tonyyang21/mren203_robot_project/assets/116667620/55dc6e89-222f-423d-80b7-35c34fe4a4f5)
+</p>
+
 ### Heatmap generated from CO2 sensors and SLAM
 ![Heatmap](https://github.com/tonyyang21/mren203_robot_project/assets/116667620/26713d58-4c96-45c8-b153-96b9b783e2b0)
